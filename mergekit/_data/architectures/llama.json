@@ -24,7 +24,6 @@
        "output_space": "attn_qk_${layer_index}"
      },
      {
-       "commented_out": true,
        "name": "model.layers.${layer_index}.self_attn.q_proj.bias",
        "input_space": "attn_qk_${layer_index}"
      },
@@ -34,7 +33,6 @@
        "output_space": "attn_qk_${layer_index}"
      },
      {
-       "commented_out": true,
        "name": "model.layers.${layer_index}.self_attn.k_proj.bias",
        "input_space": "attn_qk_${layer_index}"
      },
@@ -44,7 +42,6 @@
        "output_space": "attn_v_${layer_index}"
      },
      {
-       "commented_out": true,
        "name": "model.layers.${layer_index}.self_attn.v_proj.bias",
        "input_space": "attn_v_${layer_index}"
      },
@@ -54,7 +51,6 @@
        "output_space": "post_attn_${layer_index}"
      },
      {
-       "commented_out": true,
        "name": "model.layers.${layer_index}.self_attn.o_proj.bias",
        "input_space": "post_attn_${layer_index}"
      },
